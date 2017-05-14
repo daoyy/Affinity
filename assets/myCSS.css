@@ -1,3 +1,6 @@
 .content-post-body img{
     max-width: 100%;
 }
+.logo {
+    display: none;
+}
