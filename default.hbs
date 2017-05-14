@@ -24,11 +24,13 @@
     <section class="section">
       <section class="section-sidebar">
         <div class="sidebar-header">
-          <a href="{{@blog.url}}" class="sidebar-header-logo">
+          {{!-- <a href="{{@blog.url}}" class="sidebar-header-logo">
             <img class="logo" alt="{{@blog.title}}" src="{{@blog.logo}}" />
-          </a>
+          </a> --}}
           {{!-- <p>{{@blog.description}}</p> --}}
+	  <a href="{{@blog.url}}">
 	  <h2>{{@blog.title}}</h2>
+	  </a>
           {{!-- The blog navigation links --}}
           {{navigation}}
         </div>
