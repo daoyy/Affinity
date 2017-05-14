@@ -37,7 +37,22 @@
     {{/author}}
   </div>
    <div class="content-post-comments">
-    <div class="btn btn-primary btn-block">Post your comments here</a></div>
+    <!-- <div class="btn btn-primary btn-block">Post your comments here</a></div> -->
+	<div id="hypercomments_widget"></div>
+<script type="text/javascript">
+_hcwp = window._hcwp || [];
+_hcwp.push({widget:"Stream", widget_id: 88819});
+(function() {
+if("HC_LOAD_INIT" in window)return;
+HC_LOAD_INIT = true;
+var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/88819/"+lang+"/widget.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hcc, s.nextSibling);
+})();
+</script>
+<a href="http://hypercomments.com" class="hc-link" title="comments widget">comments powered by HyperComments</a>
   </div>
 <!-- You can insert your Disqus universal code here, get from https://disqus.com/admin/universalcode/#configuration-variables*/ -->                                
 <!-- Insert Isso, Disqus or similar services' JS code here -->
