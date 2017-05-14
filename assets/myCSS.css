@@ -9,12 +9,13 @@
 }
 .sidebar-header-title:link{
     color: #666;   
-}
-.sidebar-header-title:hover{
-    color: #666;   
-    text-decoration: underline; 
+    text-decoration:none;
 }
 .sidebar-header-title:visited{
     color: #666;   
     text-decoration: none; 
+}
+.sidebar-header-title:hover{
+    color: #666;   
+    text-decoration: underline; 
 }
